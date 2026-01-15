@@ -19,7 +19,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and design.
+          &apos;always open to discussing new opportunities, interesting projects, or just having a conversation about technology and design.
           </p>
         </div>
 
