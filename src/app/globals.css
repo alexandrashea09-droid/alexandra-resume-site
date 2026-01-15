@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Print styles */
+@media print {
+  nav {
+    display: none !important;
+  }
+
+  body {
+    @apply text-black;
+  }
+
+  a {
+    @apply text-black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  @page {
+    margin: 1in;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
